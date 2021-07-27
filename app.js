@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded",loadPages);
 //func
 
 function loadPages(){
-    //cityChange("new york");
+    cityChange("new york");
 }
 
 async function cityInput(e){
