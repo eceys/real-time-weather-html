@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  'Raleway', sans-serif;
+    color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.backgroundImage{
+    background-image: url(./image/1.jpg);
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(0,0,0,.65);
+    height:100vh;
+}
+
+.header{
+    padding: 100px 20px 30px 20px;
+}
+
+.header h1{
+    font-size: 50px;
+    color: #fbb034;
+    text-shadow: 1px 3px rgba(0,0,0,.9);
+}
+
+.header input{
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #fbb034;
+    text-align: center;
+    font-size: 20px;
+    color: #f2f2f2;
+}
+
+.city{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-shadow: 1px 3px rgba(0,0,0,.7);
+}
+
+.temprature{
+    font-size: 140px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+    text-shadow: 1px 3px rgba(0,0,0,.7);
+    letter-spacing: 8px;
+}
+
+.description{
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-shadow: 1px 3px rgba(0,0,0,.7);
+    letter-spacing: 8px;
+}
+
+.minMax{
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-shadow: 1px 3px rgba(0,0,0,.7);
+    letter-spacing: 2px;
+}
+
+.wind{
+    font-size: 23px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-shadow: 1px 3px rgba(0,0,0,.7);
+    letter-spacing: 2px;
+}
+
+.humudity{
+    font-size: 23px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-shadow: 1px 3px rgba(0,0,0,.7);
+    letter-spacing: 2px;
+}
