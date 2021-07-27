@@ -1,4 +1,4 @@
-const api = "a0c6cdf77f2a276bba8f2e49282d3c6c";
+const api = " "; // your api key here
 const link = "https://api.openweathermap.org/data/2.5/"
 
 //var
